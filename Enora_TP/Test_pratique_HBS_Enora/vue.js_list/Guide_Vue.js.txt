@@ -1,0 +1,7 @@
+Pour tester le test pratique de vue.js sur unbutu :
+
+- installez Nodejs en tapant la commande "sudo apt install nodejs" dans un terminal 
+- installez npm en tapant la commande "sudo npm install npm@latest -g" dans un terminal
+- installer le client Vue, vue-cli en tapant "sudo npm install -g vue-cli"
+- rentrez dans le dossier du projet my_list dans le terminal en faisant "cd my_list"
+- tapez la commande "sudo npm run serve"

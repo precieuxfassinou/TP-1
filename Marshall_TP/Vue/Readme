@@ -1,0 +1,32 @@
+Guide de déploiement de l'API sécurisée avec Laravel
+
+Étape 1 : Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé:
+
+Vue
+Étape 2 : Cloner le projet
+
+Clonez le projet Laravel depuis votre répertoire Git
+
+git clone <URL_du_projet.git
+
+Etape3: Dependance
+
+Pour exécuter un projet Vue.js, vous aurez besoin des dépendances suivantes :
+
+Node.js et NPM (Node Package Manager) : Vue.js utilise Node.js et NPM pour gérer les dépendances et exécuter des scripts. Assurez-vous d'avoir Node.js installé sur votre système, car NPM est livré avec Node.js.
+
+Vue CLI (Interface de ligne de commande) : Vue CLI est un outil en ligne de commande officiel pour le développement Vue.js, qui offre des fonctionnalités telles que la création de projets, le développement local, le packaging pour la production, etc. Vous pouvez l'installer globalement en utilisant NPM avec la commande suivante :
+
+npm install -g @vue/cli
+Vue Router (Facultatif) : Si vous prévoyez de créer une application à page unique (SPA) avec Vue.js, vous pouvez utiliser Vue Router pour gérer le routage dans votre application. Vous pouvez l'installer en utilisant NPM avec la commande suivante :
+
+npm install vue-router
+Vuex (Facultatif) : Si votre application a besoin d'un état global partagé entre plusieurs composants, vous pouvez utiliser Vuex, qui est un gestionnaire d'état pour les applications Vue.js. Vous pouvez l'installer en utilisant NPM avec la commande suivante :
+
+npm install vuex
+
+npm install vuex@next --save
+
+Pour tester run: npm run serve

@@ -1,0 +1,45 @@
+Guide de déploiement de l'API sécurisée avec Laravel
+
+Étape 1 : Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre serveur :
+
+PHP (version recommandée par Laravel)
+Composer
+Serveur web (Nginx)
+Base de données (SQLite)
+Étape 2 : Cloner le projet
+
+Clonez le projet Laravel depuis votre répertoire Git
+
+git clone <URL_du_projet.git
+
+Etape3: Dependance
+
+Laravel Framework: La base même de votre application Laravel. Vous pouvez l'installer via Composer en exécutant la commande suivante :
+
+composer require laravel/framework
+Composer: Composer est un gestionnaire de dépendances pour PHP. Laravel lui-même est géré via Composer, donc assurez-vous de l'avoir installé sur votre système.
+
+Serveur Web: Vous aurez besoin d'un serveur web tel qu'Apache ou Nginx pour exécuter votre application Laravel en production.
+
+PHP: Assurez-vous d'avoir installé PHP sur votre système, de préférence une version compatible avec Laravel.
+
+Base de données: Laravel prend en charge plusieurs bases de données, y compris MySQL, PostgreSQL, SQLite et SQL Server. Assurez-vous d'avoir installé le moteur de base de données de votre choix.
+
+Node.js et NPM: Laravel utilise NPM pour gérer les dépendances JavaScript et les tâches d'automatisation. Assurez-vous d'avoir Node.js et NPM installés sur votre système.
+
+Composer Packages: En fonction des besoins spécifiques de votre application, vous pouvez installer d'autres packages Composer pour ajouter des fonctionnalités supplémentaires. Certains des packages couramment utilisés incluent:
+
+Laravel Sanctum: Pour l'authentification API basée sur les tokens.
+Laravel Jetstream / Breeze: Pour la mise en place rapide de l'authentification et des tableaux de bord.
+Laravel Passport: Pour l'authentification OAuth2.
+Laravel Livewire: Pour le développement d'interface utilisateur interactif.
+Laravel Telescope: Pour le débogage et le suivi des requêtes.
+Laravel Horizon: Pour la gestion des files d'attente.
+Vous pouvez installer ces packages en utilisant Composer. Par exemple :
+
+composer require laravel/sanctum
+
+Etape4:
+Tester avec PostMan

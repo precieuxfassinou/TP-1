@@ -1,0 +1,13 @@
+Lien vers le figma de l'application : https://www.figma.com/file/qQbdh5eIxAzczwfMyWV2UM/smart-everyday?type=design&node-id=0%3A1&mode=design&t=Za4FzQNKzOyOhQ0a-1
+
+
+Etant donné que le processus d'installation pour faire fonctionner Flutter 
+sur un ordinateur est trop long, je n'ai copié que le fichier apk de l'aaplication dans ce dossier.
+
+Pour le faire fonctionner, envoyez le fichier apk sur votre téléphone, un android de préférence. Vous pouvez l'envoyer sur whatsapp.
+
+Ensuite cliquez sur l'application et demarrez le processus d'installation. Il se peut que vous ayez à autoriser l'installation d'applications tierces dans vos paramètres. Mais votre téléphone vous guidera sur tout le processus.
+
+Une fois cela fait, vous aurez une application nommée smarteveryday sur votre telephone.
+
+Lancez le.
